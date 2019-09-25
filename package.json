@@ -1,0 +1,29 @@
+{
+  "name": "umi-pre-render",
+  "version": "1.0.8",
+  "description": "umi预渲染，支持css in js",
+  "author": "86727767@qq.com",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "father build"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "mkdirp": "^0.5.1",
+    "react-ssr-checksum": "^0.0.0-alpha.1",
+    "ssr-polyfill": "^1.0.0"
+  },
+  "files": ["lib", "src"],
+  "devDependencies": {
+    "@types/cheerio": "^0.22.13",
+    "@types/deepmerge": "^2.2.0",
+    "@types/mkdirp": "^0.5.2",
+    "father": "^2.17.0",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.4",
+    "typescript": "^3.6.2",
+    "umi": "^2.9.3",
+    "umi-types": "^0.3.17"
+  }
+}
